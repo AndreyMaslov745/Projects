@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Connection>
+	<FeedUrl>https://habr.com/ru/rss/interesting/</FeedUrl>
+	<ProxyAddres>http://scraperapi:APIKEY@proxy-server.scraperapi.com:8001</ProxyAddres>
+	<ProxyLogin>scraperapi</ProxyLogin>
+	<ProxyPassword></ProxyPassword>
+	<UpdateTime>30</UpdateTime>
+</Connection>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Feed>
+@{
+ViewBag.Title = "RssReader";
+}
+<div class = "main-content-table">
+@{
+<table>
+<tr>
+ <th>
+     Title
+ </th>
+  <th>
+     Publication Date
+  </th>
+ <th>
+     Description
+ </th>
+
+</tr>
+
+@foreach (var item in Model) {
+<tr>
+ <td>
+      <a href="@item.Link"> @item.Title</a>
+ </td>
+  <td>
+    @item.PubDate
+  </td>
+ <td>
+     @item.Description
+  </td>
+</tr>
+}
+</table>
+}
+</div>
