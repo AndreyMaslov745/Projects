@@ -1,0 +1,13 @@
+﻿@model ICollection<IComparable>
+
+@{
+    ViewBag.Title = "title";
+}
+
+<h2>title</h2>
+@{
+    foreach (var VARIABLE in Model)
+    {
+        <h1>@VARIABLE</h1>
+    }
+}
