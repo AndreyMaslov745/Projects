@@ -1,2 +1,2 @@
 # Projects
-This is my pet-projects repository.
+This is repository for small pet projects and some university courses tasks.
