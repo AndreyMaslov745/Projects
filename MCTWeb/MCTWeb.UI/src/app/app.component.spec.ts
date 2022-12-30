@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'MCTWEb.UI'`, () => {
+  it(`should have as title 'MCTWeb.UI'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('MCTWEb.UI');
+    expect(app.title).toEqual('MCTWeb.UI');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('MCTWEb.UI app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('MCTWeb.UI app is running!');
   });
 });

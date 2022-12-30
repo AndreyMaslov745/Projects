@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MCTWEb.UI": {
+    "MCTWeb.UI": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "MCTWEb.UI:build:production"
+              "browserTarget": "MCTWeb.UI:build:production"
             },
             "development": {
-              "browserTarget": "MCTWEb.UI:build:development"
+              "browserTarget": "MCTWeb.UI:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MCTWEb.UI:build"
+            "browserTarget": "MCTWeb.UI:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "13f97dc5-1d4c-4b53-88d7-afd390010aa6"
+    "analytics": "30850668-5e7c-4c3d-af37-7fb83ba87139"
   }
 }
